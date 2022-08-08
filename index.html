@@ -10,78 +10,97 @@
 <style>
     .bgcolor {
         background-color: antiquewhite;
+        height: 100vh;
+        width: 1300PX;
     }
 
     .bgcolor1 {
         color: white;
     }
 
-    button:nth-child(1){
+    button:nth-child(1) {
         background-color: rgb(1, 5, 9);
         color: white;
     }
-    button{
+
+    button {
         background-color: rgb(81, 79, 79);
     }
 
     .box1 {
-        height: 90vh;
-        padding: 3PX;
+        height: 550pX;
         background-color: white;
-        
+        display: inline-block;
+        width: 1100PX;
     }
 
     .box2 {
-        height: 20vh;
-        width: 800px;
+        height: 30PX;
+        width: 1100px;
         display: inline-block;
+        
+
     }
+
+    .buttonn {       height: 20PX;
+        width: 50PX;
+        display: inline-block;
+        text-align: right;
+    }
+
     .row {
-        height: 20vh;
-        padding: 01px;
+        height: 80PX;
+
         display: inline-block;
-        height: 800px;
+        height: 400px;
+        
     }
+
     .column {
-        padding: 0px;
+
         width: 350PX;
-        height: 05vh;
-        float: left;       
-    }
-    .column1 {
-        padding: block end 02px;
-        width: 800PX;
-        height: 08vh;
+        height: 400PX;
+        padding: 5px;
         float: left;
-        }
+        
+    }
+
+    .column1 {
+
+        width: 350PX;
+        height: 400PX;
+        float: left;
+        margin-left: 10PX;
+        
+    }
 </style>
 
 
 <body class="bgcolor">
     <div class="box1">
-        <div> Recipe Meister</div>
-        <hr style="color: rgb(188, 18, 47); border-bottom: solid 1px;">
-        <div>
-            <Span>
-                <form class="box2">
-                    <Label for="recipes"> </Label>
-                    <input value="FIND RECIPES">
-                </form>
-            </Span>
-            <Span> <Button> Add a Recipe</Button></Span>
+        <div> Recipe Meister
+            <hr style="color: rgb(188, 18, 47); border-bottom: solid 1px;">
         </div>
+        <div class="box2">
+
+            <form>
+                <Label for="recipes"> </Label>
+                <input value="FIND RECIPES">
+            </form>
+        </div>
+       <!-- ,<Button class="text-align: right;"> Add Recipes </Button> -->
         <div class="row">
-            <div class="column"> 
-                <img src="vivo-S15-Pro.jpg" alt="" height="200pX" width="200PX">
+            <div class="column bgcolor">
+                <img src="vivo-S15-Pro.jpg" alt="" height="200pX" width="200PX" >
                 <br>
                 <H3> Strawberry Cheesecake</H3>
                 <p> This strawberry Cheesecake is the summer dessert dreamms Are made of.</p>
                 <button> CAKES</button>
                 <button> Dessert</button>
-           </div>
-            <div class="column1">
+            </div>
+            <div class="column1 bgcolor">
                 <img src="vivo-S15-Pro.jpg" alt="" height="200pX" width="200PX">
-                 <H3> Chicken Parmigiana</H3>
+                <H3> Chicken Parmigiana</H3>
                 <p> Chicken Parmagiana is the easy ltalian-American chickenn bake that's perfect for midweek cooking.
 
                 </p>
